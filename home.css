@@ -1,73 +1,123 @@
-body{
-    margin: auto;
+body {
+  margin: auto;
+  background-color: rgb(221, 195, 199);
 }
-header{
-    height: 60px;
-    /*border: 2px solid red;*/
-    background-color: #3b2632;
-    color: white;
+header {
+  height: 60px;
+  /*border: 2px solid red;*/
+  background-color: #3b2632;
+  color: white;
 }
-#icon
+#icon {
+  float: left;
+  margin-left: 2%;
+}
+#loginset {
+  float: right;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+#search {
+  height: 450px;
+  /*border: 2px solid black;*/
+  background-image: url("images/food-wallpaper.jpg");
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-size: 100% 450px;
+}
+#logo {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 2%;
+  position: absolute;
+  margin-left: 45%;
+}
+#logo > span {
+  font-size: 80px;
+  margin-top: 18%;
+  position: absolute;
+  margin-left: 28%;
+}
+#heading {
+  font-size: 50px;
+  margin-top: 13%;
+  position: absolute;
+  margin-left: 32%;
+  color: white;
+}
+.dropdown {
+  height: 60px;
+  width: 50%;
+  margin-top: 20%;
+  position: absolute;
+  margin-left: 28%;
+}
+select {
+  height: 60px;
+  width: 50%;
+  font-size: 15px;
+  text-align: center;
+  float: left;
+}
+#quickSearch {
+  height: 600px;
+  /*border: 2px solid blue;*/
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+#quickHeading {
+  font-size: 30px;
+  color: #3b2632;
+  display: block;
+  margin-left: 2%;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#quickSubHeading {
+  font-size: 20px;
+  color: purple;
+  line-height: 3;
+  margin-left: 2%;
+}
+.tileContainer {
+  height: 200px;
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+  box-shadow: 10px 20px 5pc grey;
+}
+.tileComponent1 {
+  width: 50%;
+  float: left;
+}
+.tileComponent1 img{
+    width: 100%;
+    height: 100%;
+  }
+.tileComponent2 {
+  width: 45%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 4%;
+}
+.componentHeading
 {
-    float: left;
-    margin-left: 2%;
+    color:#3b2632;
+    font-size: 25px;
 }
-#loginset
+.componentSubHeading
 {
-    float: right;
-    margin-right: 2%;
-    margin-top: 2%;
+    color:grey;
+    font-size: 20px;
 }
-#search{
-    height: 450px;
-    /*border: 2px solid black;*/
-    background-image: url('images/food-wallpaper.jpg');
-    background-repeat: no-repeat;
-    /*background-size: cover;*/
-    background-size: 100% 450px;
-}
-#logo
-{
-    height: 150px;
-    width: 150px;
-    background-color: white;
-    border-radius: 50%;
-    margin-top: 2%;
-    position: absolute;
-    margin-left: 45%;
-}
-#logo>span{
-    font-size: 80px;
-    margin-top: 18%;
-    position: absolute;
-    margin-left: 28%;
-}
-#heading{
-    font-size: 50px;
-    margin-top: 13%;
-    position: absolute;
-    margin-left: 32%; 
-    color: white;
-}
-.dropdown
-{
-    height: 60px;
-    width:50%;
-    margin-top: 20%;
-    position: absolute;
-    margin-left: 38%;
-}
-select{
-    height: 60px;
-    width:50%;
-    font-size: 15px; 
-    text-align: center;
-}
-#quickSearch{
-    height: 600px;
-    border: 2px solid blue;
-}
-footer{
-    height: 80px;
-    border: 2px solid green;
+footer {
+  height: 80px;
+  border: 2px solid green;
+  margin-top: 3%;
+  background:#3b2632;
+  color: white;
 }
